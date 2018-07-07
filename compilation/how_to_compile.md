@@ -1,4 +1,4 @@
-## There are many ways to do run (and compile) programs. These are some ways of doing it from Terminal on a Mac.
+## There are many ways to run (and compile) programs. These are some ways of doing it from Terminal on a Mac.
 
 ### Compile and run Java Programs
     brew install java
