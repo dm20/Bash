@@ -4,7 +4,9 @@ Some bash scripts and lines I use on the command line that may be useful to othe
 I'm on a MacBook Pro using Terminal
 
 ### One of the single most useful and powerful tools ever is Homebrew. 
-It allows you to install all sorts of packages from the command line and is extremely easy to use, like this:
+Homebrew allows you to download all sorts of packages needed for software development.
+
+It's easy to use, like this:
     
     brew intsall php
     
