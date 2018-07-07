@@ -48,6 +48,8 @@ ifconfig
 sudo tcpdump
   # to see verbose output of all the network traffic on your machine
   sudo tcpdump -v
+  # to convert the verbose output to slightly more human readable ASCII
+  sudo tcpdump -AA -v
 
 #connect to a wifi network 
 networksetup -setairportnetwork port networkname password
