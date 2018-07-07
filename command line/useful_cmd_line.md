@@ -28,14 +28,14 @@
         
 ##### now use keyboard shortcut (ctrl x) followed by the 'y' key to save the script and exit nano    
 
-##### from command line:
+##### from the command line:
 
     chmod +x scriptname.sh # make the script executable
     ./scriptname.sh # run the script
 
 ## >> to list all WiFi (port en0) networks your device has been on
     networksetup -listpreferredwirelessnetworks en0 
-##### filter for certain string patterns using grep: 
+##### to filter for certain string patterns using grep: 
   
     networksetup -listpreferredwirelessnetworks en0 | grep -i "someString" 
 ##### note that this ignores case (-i) and will accept substring arguments (i.e. if you look for "stanford" you could just search for "nfor")
@@ -54,7 +54,7 @@
 
 ## >> to connect to a wifi network 
     networksetup -setairportnetwork port networkname password
-#### Note about connecting to a wifi network:
+### Note about connecting to a wifi network:
 ##### port is your wifi port (on my Mac it's port en0)
 ##### networkname is the name of the network, like Starbucks
 ##### password is just the straight up password for the network
