@@ -35,10 +35,10 @@ from command line:
 
 ## >> to list all WiFi (port en0) networks your device has been on
     networksetup -listpreferredwirelessnetworks en0 
-#### filter for certain string patterns using grep: 
-##### this ignores case (-i) and will accept substring arguments (i.e. if you look for "stanford" you could just search for "nfor")
+## filter for certain string patterns using grep: 
   
     networksetup -listpreferredwirelessnetworks en0 | grep -i "someString" 
+##### this ignores case (-i) and will accept substring arguments (i.e. if you look for "stanford" you could just search for "nfor")
 
 ## >> to get information about your network configuration, IP address, etc
     ifconfig
@@ -54,7 +54,7 @@ to convert the verbose output to slightly more human readable ASCII
 
 ## >> to connect to a wifi network 
     networksetup -setairportnetwork port networkname password
-### Note about connecting to a wifi network:
+#### Note about connecting to a wifi network:
 #### port is your wifi port (on my Mac it's port en0)
 #### networkname is the name of the network, like Starbucks
 #### password is just the straight up password for the network
