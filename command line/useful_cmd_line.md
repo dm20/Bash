@@ -14,21 +14,21 @@
     [some command] &
 
 ## >> to write a script in nano
-from command line:
+##### from command line:
 
     nano scriptname.sh
 
 ##### now write your code in the nano file editor:
         
-Example: 
+##### Example: 
         
 	    #!/bin/bash
 	    echo This is a Bash script # simple example that prints this message when script is run
             
         
-now use keyboard shortcut (ctrl x) followed by the 'y' key to save the script and exit nano    
+##### now use keyboard shortcut (ctrl x) followed by the 'y' key to save the script and exit nano    
 
-from command line:
+##### from command line:
 
     chmod +x scriptname.sh # make the script executable
     ./scriptname.sh # run the script
