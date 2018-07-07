@@ -44,15 +44,19 @@ to filter for certain string patterns using grep:
 ### > to see all the network traffic on your machine
     sudo tcpdump
 to see verbose output of all the network traffic on your machine
+
     sudo tcpdump -v
 to convert the verbose output to slightly more human readable ASCII
+
     sudo tcpdump -AA -v
 
 ### > to connect to a wifi network 
     networksetup -setairportnetwork port networkname password
-##### Note:
-##### port is your wifi port (on my Mac it's port en0)
-##### networkname is the name of the network, like Starbucks
-##### password is just the straight up password for the network
-##### if the password is already saved in your keychain you don't need that param
+### Note:
+#### port is your wifi port (on my Mac it's port en0)
+#### networkname 
+is the name of the network, like Starbucks
+#### password 
+is just the straight up password for the network
+#### if the password is already saved in your keychain you don't need that param
 
