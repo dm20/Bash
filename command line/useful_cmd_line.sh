@@ -48,3 +48,12 @@ ifconfig
 sudo tcpdump
   # to see verbose output of all the network traffic on your machine
   sudo tcpdump -v
+
+#connect to a wifi network 
+networksetup -setairportnetwork port networkname password
+	# Note:
+	# port is your wifi port (on my Mac it's port en0)
+	# networkname is the name of the network, like Starbucks
+	# password is just the straight up password for the network
+	# if the password is already saved in your keychain you don't need that param
+
