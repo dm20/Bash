@@ -35,28 +35,28 @@
 
 ## >> to list all WiFi (port en0) networks your device has been on
     networksetup -listpreferredwirelessnetworks en0 
-## filter for certain string patterns using grep: 
+##### filter for certain string patterns using grep: 
   
     networksetup -listpreferredwirelessnetworks en0 | grep -i "someString" 
-##### this ignores case (-i) and will accept substring arguments (i.e. if you look for "stanford" you could just search for "nfor")
+##### note that this ignores case (-i) and will accept substring arguments (i.e. if you look for "stanford" you could just search for "nfor")
 
 ## >> to get information about your network configuration, IP address, etc
     ifconfig
 
 ## >> to see all the network traffic on your machine
     sudo tcpdump
-to see verbose output of all the network traffic on your machine
+##### to see verbose output of all the network traffic on your machine
 
     sudo tcpdump -v
-to convert the verbose output to slightly more human readable ASCII
+##### to convert the verbose output to slightly more human readable ASCII
 
     sudo tcpdump -AA -v
 
 ## >> to connect to a wifi network 
     networksetup -setairportnetwork port networkname password
 #### Note about connecting to a wifi network:
-#### port is your wifi port (on my Mac it's port en0)
-#### networkname is the name of the network, like Starbucks
-#### password is just the straight up password for the network
-#### if the password is already saved in your keychain you don't need that param
+##### port is your wifi port (on my Mac it's port en0)
+##### networkname is the name of the network, like Starbucks
+##### password is just the straight up password for the network
+##### if the password is already saved in your keychain you don't need that param
 
