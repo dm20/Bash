@@ -20,7 +20,7 @@
     cd folder_containing_code
     python filename.py
 
-### Run C++ programs
+### Compile and run C++ programs
     cd folder_containing_code
     g++ filename.cpp
     ./a.out
