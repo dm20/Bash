@@ -1,19 +1,19 @@
 # USEFUL COMMAND LINE CODE
 ### Enter these lines in Terminal on your Mac
 
-### • to tell the computer to say Hello, World out loud
+### > to tell the computer to say Hello, World out loud
     say Hello, World
 
-### • to find out what directory you're in
+### > to find out what directory you're in
     pwd
 
-### • to find out what user is currently logged in
+### > to find out what user is currently logged in
     whoami
 
-### • to use the '&' operator and run a process in the background and continue going about your business
+### > to use the '&' operator and run a process in the background and continue going about your business
     [some command] &
 
-### • to write a script in nano
+### > to write a script in nano
 	#### from command line:
     nano scriptname.sh
 
@@ -31,23 +31,23 @@
     chmod +x scriptname.sh # make the script executable
     ./scriptname.sh # run the script
 
-### • to list all WiFi (port en0) networks your device has been on
+### > to list all WiFi (port en0) networks your device has been on
     networksetup -listpreferredwirelessnetworks en0 
   #### to filter for certain string patterns using grep: 
   #### note this ignores case (-i) and will accept substring arguments (i.e. if you look for "stanford" you could just search for "nfor")
     networksetup -listpreferredwirelessnetworks en0 | grep -i "someString" 
 
-### • to get information about your network configuration, IP address, etc
+### > to get information about your network configuration, IP address, etc
     ifconfig
 
-### • to see all the network traffic on your machine
+### > to see all the network traffic on your machine
     sudo tcpdump
   #### to see verbose output of all the network traffic on your machine
     sudo tcpdump -v
   #### to convert the verbose output to slightly more human readable ASCII
     sudo tcpdump -AA -v
 
-### • to connect to a wifi network 
+### > to connect to a wifi network 
 networksetup -setairportnetwork port networkname password
 	#### Note:
 	#### port is your wifi port (on my Mac it's port en0)
