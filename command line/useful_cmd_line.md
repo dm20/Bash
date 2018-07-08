@@ -10,7 +10,7 @@
 ## >> to find out what user is currently logged in
     whoami
     
-## >> see thread count, CPU-usage, and more
+## >> see thread count, CPU usage, and more
     top
 
 ## >> to use the '&' operator and run a process in the background and continue going about your business
