@@ -1,5 +1,5 @@
 # USEFUL COMMAND LINE CODE
-### Enter these lines in Terminal on your Mac
+### Enter these lines in Terminal on your Mac :~
 
 ## >> to tell the computer to say Hello, World out loud
     say Hello, World
