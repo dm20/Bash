@@ -3,6 +3,8 @@ Some bash scripts and lines I use on the command line that may be useful for oth
 
 I'm on a MacBook Pro using Terminal
 
+---
+
 ### One of the single most useful and powerful tools ever is Homebrew. 
 Homebrew allows you to download all sorts of packages needed for software development.
 
