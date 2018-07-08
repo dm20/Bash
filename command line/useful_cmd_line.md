@@ -23,7 +23,7 @@
 
 ##### now write your code in the nano file editor:
         
-##### Example nano script: 
+#### Example nano script: 
         
 	    #!/bin/bash
 	    # echo takes in a statement and prints it out when this script is executed
