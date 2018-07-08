@@ -23,17 +23,21 @@
 
 ##### now write your code in the nano file editor:
         
-##### Example: 
+##### Example nano script: 
         
 	    #!/bin/bash
-	    echo This is a Bash script # simple example that prints this message when script is run
+	    # echo takes in a statement and prints it out when this script is executed
+	    # it can also be entered into the command line manually
+	    echo This is a Bash script 
             
         
 ##### now use keyboard shortcut (ctrl x) followed by the 'y' key to save the script and exit nano    
 
 ##### from the command line:
-
-    chmod +x scriptname.sh # make the script executable
+    # make the script executable
+    chmod +x scriptname.sh 
+    
+    # run it
     ./scriptname.sh # run the script
 
 ## >> to list all WiFi (port en0) networks your device has been on
