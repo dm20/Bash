@@ -1,4 +1,4 @@
-# OS X COMMAND LINE CHEAT SHEET
+# OS-X COMMAND LINE TOP 10 COMMANDS
 ### Enter these lines in Terminal on your Mac :~
 
 ## >> to tell the computer to say Hello, World out loud
