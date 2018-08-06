@@ -15,4 +15,4 @@ It's easy to use, like this:
 
 ---
 
-### Try this <a href= "https://www.github.com/dm20/Data-Operations">Complex Data Operations Command Line Tool</a> I made
+### Try this <a href= "https://www.github.com/dm20/Data-Operations">Complex Data Operations Command Line Tool</a>
