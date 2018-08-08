@@ -67,3 +67,9 @@
 ##### password is just the straight up password for the network
 ##### if the password is already saved in your keychain you don't need that param
 
+## >> to open a file with a particular application 
+    open config.go -a TextEdit
+    
+## >> to make all files in a directory
+    make -B *
+
