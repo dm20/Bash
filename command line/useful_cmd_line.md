@@ -7,6 +7,9 @@
 ## >> to find out what directory you're in
     pwd
 
+## >> to count the occurrences of a certain filetype in a directory
+    ls | grep ".html" | wc -l
+
 ## >> to find out what user is currently logged in
     whoami
     
